@@ -270,8 +270,8 @@ axes[1].set_title('Relationship between Order_Quantity and Profit')
 axes[1].set_xlabel('Order_Quantity')
 axes[1].set_ylabel('Profit')
 
-
-plt.tight_layout()
+# Display the Matplotlib plots in Streamlit
+st.pyplot(fig)
 st.pyplot(fig)
 
 # your code goes here
