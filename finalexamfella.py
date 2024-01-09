@@ -275,7 +275,7 @@ axes[1].set_ylabel('Profit')
 
 # Display the Matplotlib plots in Streamlit
 st.pyplot(fig)
-st.pyplot(fig)
+
 
 # your code goes here
 
