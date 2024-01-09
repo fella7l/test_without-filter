@@ -12,7 +12,7 @@ st.sidebar.title("Streamlit Sales App ")
 st.sidebar.subheader('Dive into a world of insights with our dynamic Streamlit app!')
 
 Df = data.dropna()
-
+Df = Df.drop_duplicates()
 pd.set_option('mode.use_inf_as_na', True)
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
@@ -137,7 +137,7 @@ st.subheader('Salse informations')
 fig, axes = plt.subplots(2, 2, figsize=(15, 12))
 
 # Graphique 1: Histogramme - Order Quantity
-axes[0, 0].hist(Df['Order_Quantity'], color='#3E727F')
+axes[0, 0].hist(Df['Order_Quantity'],bins=20, color='#3E727F')
 axes[0, 0].set_xlabel('Order Quantity')
 axes[0, 0].set_title('Frequency of Order Quantity')
 
