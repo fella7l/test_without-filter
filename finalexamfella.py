@@ -13,6 +13,7 @@ st.sidebar.subheader('Dive into a world of insights with our dynamic Streamlit a
 
 Df = data.dropna()
 
+pd.set_option('mode.use_inf_as_null', True)
 
 # your code goes here
 
