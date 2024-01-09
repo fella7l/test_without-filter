@@ -6,7 +6,7 @@ import seaborn as sns
     
 
 
-data = pd.read_csv('sales_data.csv')
+data = pd.read_csv('sales4data.csv')
 
 st.sidebar.title("Streamlit Sales App ")
 st.sidebar.subheader('Dive into a world of insights with our dynamic Streamlit app!')
