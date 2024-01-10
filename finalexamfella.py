@@ -29,7 +29,7 @@ selected_country = st.sidebar.multiselect("Country", Df['Country'].unique())
 
 
 st.sidebar.markdown("""
-Embark on a data exploration adventure with our dynamic Streamlit app! Featuring a robust DataFrame comprising 113,036 entries and 18 columns, this app is your gateway to uncovering intricate details about customer behavior, product categories, and financial metrics.
+Embark on a data exploration adventure with our dynamic Streamlit app! Featuring a robust DataFrame comprising 112,036 entries and 18 columns, this app is your gateway to uncovering intricate details about customer behavior, product categories, and financial metrics.
 """)
 
   
